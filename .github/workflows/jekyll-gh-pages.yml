@@ -34,7 +34,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./.well-known
-          destination: ./.well-known
+          destination: ./_site/.well-known
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
